@@ -192,3 +192,12 @@ zstandard                 0.25.0
 C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Users\minda\AppData\Local\Microsoft\WindowsApps;C:\Users\minda\AppData\Local\Programs\Ollama;C:\Users\minda\AppData\Local\GitHubDesktop\bin;C:\Users\minda\AppData\Roaming\Python\Python312\Scripts 
 [ファイル集約] 
 [Gitプッシュ] 
+warning: in the working copy of 'sync_report.txt', LF will be replaced by CRLF the next time Git touches it
+[feature/owner-rent-receipt-v1 3211bfa] auto: 環境同期&ファイル集約 2025/11/11 11:01:48.21
+ 2 files changed, 203 insertions(+)
+ create mode 100644 environment_sync_report.txt
+To https://github.com/kazx0928-code/ikoi-erpsystem-2025.git
+   ef35768..3211bfa  feature/owner-rent-receipt-v1 -> feature/owner-rent-receipt-v1
+======================================== 
+レポート: C:\Users\minda\Desktop\ikoi_rent_receipt_project\environment_sync_report.txt 
+======================================== 
