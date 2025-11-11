@@ -1,5 +1,5 @@
 ======================================== 
-実行日時: 2025/11/11 11:00:43.60 
+実行日時: 2025/11/11 11:01:47.55 
 ======================================== 
 [環境情報] 
 Python 3.12.7
@@ -191,18 +191,4 @@ xxhash                    3.6.0
 zstandard                 0.25.0
 C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Users\minda\AppData\Local\Microsoft\WindowsApps;C:\Users\minda\AppData\Local\Programs\Ollama;C:\Users\minda\AppData\Local\GitHubDesktop\bin;C:\Users\minda\AppData\Roaming\Python\Python312\Scripts 
 [ファイル集約] 
-C:\Users\minda\Desktop\receipts_pdf\REC-20251111-001.pdf
-C:\Users\minda\Desktop\receipts_pdf\REC-20251111-002.pdf
-2 File(s) copied
-C:\Users\minda\Desktop\ikoi_erp_db\ikoi_erp.db
-1 File(s) copied
 [Gitプッシュ] 
-[feature/owner-rent-receipt-v1 ef35768] auto: 環境同期&ファイル集約 2025/11/11 11:00:44.34
- 6 files changed, 237 insertions(+)
- create mode 100644 cd
- create mode 100644 sync_and_push.bat
- create mode 100644 sync_report.txt
-To https://github.com/kazx0928-code/ikoi-erpsystem-2025.git
-   63304d6..ef35768  feature/owner-rent-receipt-v1 -> feature/owner-rent-receipt-v1
-======================================== 
-======================================== 
