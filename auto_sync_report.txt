@@ -1,0 +1,9 @@
+======================================== 
+仮想↔実機 自動完全同期開始 2025/11/11 11:14:28.43 
+======================================== 
+From https://github.com/kazx0928-code/ikoi-erpsystem-2025
+ * branch            feature/owner-rent-receipt-v1 -> FETCH_HEAD
+Already up to date.
+仮想側最新ファイルを実機に完全反映中... 
+Cannot perform a cyclic copy
+0 File(s) copied
