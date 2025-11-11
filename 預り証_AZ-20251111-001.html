@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>預り証</title>
+    <style>
+        @page { size: A4 portrait; margin: 0mm; }
+        @media print { body { -webkit-print-color-adjust: exact; color-adjust: exact; } }
+        body { margin:0; padding:0; background:white; font-family:'Yu Mincho',serif; }
+        .receipt { width:210mm; height:297mm; position:relative; overflow:hidden; }
+        .top    { height:99mm; background:white; }
+        .middle { height:99mm; background:repeating-linear-gradient(42deg, #dfffdf 0px, #dfffdf 9.5mm, #cfffcf 9.5mm, #cfffcf 19mm);
+                  border-top:2pt dashed #000; border-bottom:2pt dashed #000;
+                  padding:8mm 12mm; box-sizing:border-box; position:relative; }
+        .bottom { height:99mm; background:repeating-linear-gradient(42deg, #dfffdf 0px, #dfffdf 9.5mm, #cfffcf 9.5mm, #cfffcf 19mm);
+                  padding:8mm 12mm; box-sizing:border-box; position:relative; }
+        .title  { font-size:28pt; font-weight:bold; letter-spacing:10px; color:#006400; text-align:center; margin:12mm 0 5mm; }
+        .date   { position:absolute; top:20mm; right:12mm; font-size:14pt; }
+        .payer  { position:absolute; top:20mm; left:12mm; font-size:14pt; }
+        .amount { text-align:center; font-size:30pt; font-weight:bold; margin:8mm 0; }
+        .desc   { font-size:14pt; text-align:left; margin:5mm 12mm 20mm 12mm; line-height:1.5; }
+        .control{ position:absolute; top:5mm; right:12mm; font-size:12pt; color:#c62828; letter-spacing:4px; }
+        .company-info { position:absolute; bottom:8mm; right:12mm; text-align:right; line-height:1.35; font-size:10pt; }
+        .company-name { font-size:18pt; font-weight:bold; }
+        .rep { font-size:10pt; font-weight:bold; }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <div class="top"></div>
+        <div class="middle">
+            <div class="control">【 いこい住宅控え 】</div>
+            <div class="title">預 り 証</div>
+            <div class="date">2025.11.11</div>
+            <div class="payer">岡崎 一宏 様</div>
+            <div class="amount">¥ 85,000</div>
+            <div class="desc">但し家賃として相違ありません</div>
+            <div class="company-info">
+                <div class="company-name">株式会社いこい住宅</div>
+                <div class="rep">代表取締役 小林信弘</div>
+                <div>〒700-0861 岡山県岡山市北区清輝橋３丁目７－２０</div>
+                <div>TEL 086-233-2202 FAX 086-233-2204</div>
+                <div>info@ikoi-jutaku.co.jp</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="title">預 り 証</div>
+            <div class="date">2025.11.11</div>
+            <div class="payer">岡崎 一宏 様</div>
+            <div class="amount">¥ 85,000</div>
+            <div class="desc">但し家賃として相違ありません</div>
+            <div class="company-info">
+                <div class="company-name">株式会社いこい住宅</div>
+                <div class="rep">代表取締役 小林信弘</div>
+                <div>〒700-0861 岡山県岡山市北区清輝橋３丁目７－２０</div>
+                <div>TEL 086-233-2202 FAX 086-233-2204</div>
+                <div>info@ikoi-jutaku.co.jp</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
